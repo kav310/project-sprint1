@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    background-image: url("https://wallpaperaccess.com/full/1350813.jpg");
+}
+ul{
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+nav{
+    background-color: rgb(233, 233, 71);
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+   
+}
+nav ul li{
+   padding: 20px;
+   display: inline-block;
+}
+.logo img{
+    width: 10%;
+}
+nav ul li a{
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+a:hover{
+    background-color: red;
+    color: whitesmoke;
+    padding: 10px;
+}
+header{
+    padding: 20px 0;
+    text-align: center;
+  }
+  header h1{
+    color:white;
+    border: 8px solid green;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 36px;
+    font-family: 'Shrikhand', cursive;
+    box-shadow: 10px 10px black;
+    background-color: black;
+  }
+   h1{
+      color: yellow;
+      font-family: 'Leckerli One', cursive;
+      font-size: 50px;
+      padding: 20px;
+  }
+  header p{
+      color: red;
+  }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    background-color: white;
+    margin-left: 65px;
+    display: inline-block;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+h4{
+    text-align: center;
+    color: blue;
+    font-family: 'Permanent Marker', cursive;
+}
+p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
+}
+h3{
+    text-align: center;
+    color: red;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    margin-top: 5px;
+    padding-top: 10px;
+}
+strong{
+    color: red;
+}
+@media only screen and (max-width: 768px){
+    nav li{
+        display: block;
+        width: 100%;
+    }
+    nav{
+        height: 400px;
+        text-align: center;
+    }
+    .card{
+        display: block;
+        width: 70%;
+    }
+}
+

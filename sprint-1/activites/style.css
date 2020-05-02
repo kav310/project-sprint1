@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRNDwRdg-oCR4mBUL9dZ0pyXHBDVWa6lIv0nI0G9OTBqcL-6law&usqp=CAU");
+}
+ul{
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+nav{
+    background-color: rgb(233, 233, 71);
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+   
+}
+nav ul li{
+   padding: 20px;
+   display: inline-block;
+}
+.logo img{
+    width: 10%;
+}
+nav ul li a{
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+a:hover{
+    background-color: red;
+    color: whitesmoke;
+    padding: 10px;
+}
+header{
+    padding: 20px 0;
+    text-align: center;
+  }
+  header h1{
+    color:white;
+    border: 8px solid green;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 36px;
+    font-family: 'Shrikhand', cursive;
+    box-shadow: 10px 10px black;
+    background-color: black;
+  }
+   h1{
+      color: yellow;
+      font-family: 'Leckerli One', cursive;
+      font-size: 50px;
+      padding: 20px;
+  }
+  header p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: 'Permanent Marker', cursive;
+    color: red;
+}
+section{
+    margin-left: 50px;
+}
+section p{
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+}
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .red{
+      color: black;
+      font-family: 'Permanent Marker', cursive;
+      font-size: 40px;
+  }
+  strong{
+      color: red;
+  }
+  @media only screen and (max-width: 768px){
+    nav li{
+        display: block;
+        width: 100%;
+    }
+    nav{
+        height: 400px;
+        text-align: center;
+    }
+    section{
+        margin-left: 0;
+    }
+}

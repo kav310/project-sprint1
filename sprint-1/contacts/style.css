@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQO5_fpyU7KEVIi2tE81haRmiztfIPZNZBIAkdyQM4_DDCyR8Hn&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul{
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+nav{
+    background-color: rgb(233, 233, 71);
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+   
+}
+nav ul li{
+   padding: 20px;
+   display: inline-block;
+}
+.logo img{
+    width: 10%;
+}
+nav ul li a{
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+a:hover{
+    background-color: red;
+    color: whitesmoke;
+    padding: 10px;
+}
+header{
+    padding: 20px 0;
+    text-align: center;
+}
+h1{
+    color: red;
+    font-size: 50px;
+    font-family: 'Permanent Marker', cursive;
+}
+.login{
+    text-align: center;
+    margin-top: 30px;
+}
+h3{
+    font-size: 30px;
+    color: rgb(233, 233, 71);
+    padding: 20px;
+    font-family: 'Permanent Marker', cursive;
+}
+input{
+    padding: 10px 50px;
+    margin-bottom: 30px;
+}
+button{
+    background-color:royalblue;
+    padding: 10px 50px;
+    border-radius: 15px;
+    border: royalblue;
+    margin-bottom: 30px;
+}
+button:hover{
+    background-color: red;
+}
+.sign{
+   font-size: 30px;
+}
+@media only screen and (max-width: 768px){
+    nav li{
+        display: block;
+        width: 100%;
+    }
+    nav{
+        height: 400px;
+        text-align: center;
+    }
+    section{
+        margin-left: 0;
+    }
+}

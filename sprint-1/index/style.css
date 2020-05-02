@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    background-color: red;
+}
+ul{
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+nav{
+    background-color: rgb(233, 233, 71);
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+   
+}
+nav ul li{
+   padding: 20px;
+   display: inline-block;
+}
+.logo img{
+    width: 10%;
+}
+nav ul li a{
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+a:hover{
+    background-color: red;
+    color: whitesmoke;
+    padding: 10px;
+}
+header{
+    padding: 20px 0;
+    text-align: center;
+  }
+  header h1{
+    color:white;
+    border: 8px solid green;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 36px;
+    font-family: 'Shrikhand', cursive;
+    box-shadow: 10px 10px black;
+    background-color: black;
+  }
+   h2{
+      color: yellow;
+      font-family: 'Leckerli One', cursive;
+      font-size: 50px;
+      padding: 20px;
+  }
+  section{
+      display: flex;
+      flex-direction: row;
+      margin:30px;
+  }
+  section div{
+      margin: 0 20px 0 100px ;
+  }
+  .micky img{
+       border-radius: 50%;
+  }
+  .minne img{
+       border-radius: 50%;
+}
+.donald img{
+    border-radius: 50%;
+}
+.goofy img{
+    border-radius: 50%;
+}
+.pluto img{
+    border-radius: 50%;
+}
+.submit{
+    margin: 30px;
+}
+h3{
+    text-align: center;
+    color: blue;
+    padding: 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+#email{
+    background-color: transparent;
+    padding: 20px 60px;
+    text-align: center;
+}
+.class1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: whitesmoke;
+    font-size: 30px;
+    margin: 5px 20px 5px 500px;
+}
+button{
+    padding: 10px 80px;
+    margin-left:5px;
+    font-size: 20px;
+    background-color: turquoise;
+    border: turquoise;
+    border-radius: 5%;
+}
+button:hover{
+    background-color: yellowgreen;
+}
+
+  footer{
+    background: black;
+    color: white;
+    padding: 70px;
+    
+  }
+  footer ul{
+     display: flex;
+     flex-direction: row;
+     flex-flow: row-reverse;
+     
+  }
+  footer ul li{
+      margin: 0 40px;
+  }
+ .green{
+     background-color: green;
+     height: 25.8px;
+     width: 100%;
+ }
+ @media only screen and (max-width: 600px){
+    nav li{
+        display: block;
+        width: 100%;
+    }
+    nav{
+        height: 400px;
+        text-align: center;
+    }
+    h2{
+        font-size: 30px;
+    }
+    section{
+        flex-direction: column;
+    }
+    .class1{
+        margin: 0;
+    }
+    #email{
+        margin: 10px 0;
+    }
+    footer ul li{
+        padding-top:20px ;
+    }
+ }
+ @media only screen and (max-width: 768px) {
+        section{
+          flex-direction:column;
+        }
+        .class1{
+          margin:0;
+        }
+        footer ul li{
+            padding-top: 20px;
+        }
+      }
+     
